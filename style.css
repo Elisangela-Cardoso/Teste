@@ -1,4 +1,42 @@
-html{
+body{
 
-    background-color: green;
+    background-color: rgb(244, 246, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#cadastro-container {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-radius: 8px;
+    max-width: 400px;
+
+}
+
+#cadastro-container h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #922cc6;
+}
+
+.form {
+    margin-bottom: 15px;
+    color: #823ca4;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    color: white;
+    background-color: #922cc6;
+    padding: 6px;
+    border-radius: 8px;
 }
